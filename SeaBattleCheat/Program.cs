@@ -466,8 +466,8 @@ namespace SeaBattleCheat
                 MakeDesigion(out sX, out sY);
                 Shoot(sX, sY);
 
-                //Render(sX, sY);
-                //Console.ReadLine();
+                Render(sX, sY);
+                Console.ReadLine();
                 //Thread.Sleep(1000);
 
                 if (ships.Sum() == 0)
